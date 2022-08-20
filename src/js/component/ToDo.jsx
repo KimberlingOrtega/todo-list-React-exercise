@@ -42,7 +42,7 @@ const ToDo = () => {
               style={{ color: 'white'}}
             />
             
-            <label htmlFor="floatingInput">Tarea por hacer</label>
+            <label htmlFor="floatingInput">No hay tareas, añadir tareas.</label>
             <div className="task"></div>
             {taskList.map((tarea, i) => {
               return (
