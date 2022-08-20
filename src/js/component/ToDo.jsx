@@ -23,6 +23,7 @@ const ToDo = () => {
   const handlerButtomDelete = (indexid) => setTaskList(taskList.filter((tarea , index)=> (index != indexid)))
             
   return (
+    <div className="container">
     <div className="row vh-100 colores">
       <div className="title d-flex justify-content-center pt-2">
         <h1 className="title-1">Lista de tareas</h1>
@@ -60,6 +61,7 @@ const ToDo = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
